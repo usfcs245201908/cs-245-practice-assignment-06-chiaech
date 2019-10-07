@@ -4,7 +4,7 @@ import java.util.regex.*;
 public class Practice06Test {
 	
 	protected Queue<String> queue;
-	protected Stack<String> stack;
+	protected ArrayStack<String> stack;
 	protected final int size_of_test = 500;
 	protected final String randomString = "Hello world!";
 	protected final String[] expressionList = {"level", "anna"};
