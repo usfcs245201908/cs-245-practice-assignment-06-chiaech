@@ -17,11 +17,9 @@ public class ArrayQueue<T> implements Queue<T> {
 
     @Override
     public void enqueue(T item) {
-        if(front >= a.length-1) {
+        if(front >= a.length-1)
             grow_array();
-        } else {
-            a[++front] = item;
-        }
+        a[++front] = item;
     }
 
     @Override

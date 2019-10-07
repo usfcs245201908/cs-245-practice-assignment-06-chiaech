@@ -5,9 +5,8 @@ public class ArrayStack<T> implements Stack<T>{
 
     @Override
     public void push(T item){
-        if(top == a.length-1){
+        if(top == a.length-1)
             grow_array();
-        }
         a[++top] = item;
     }
 
